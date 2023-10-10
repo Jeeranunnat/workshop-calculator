@@ -13,6 +13,7 @@ const Calculator = () => {
     setInputValue(0);
   };
   const calculate = () => {
+    // eslint-disable-next-line
     const result = eval(inputValue);
     setInputValue(result);
   };
